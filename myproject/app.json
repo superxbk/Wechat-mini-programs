@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/calogory/calogory",
+
+    "pages/enroll/enroll",
+
+    "pages/login/login",
+    "pages/me/me",
+    "pages/co2/co2",
+    "pages/bugs/bugs",
+    "pages/introduce/introduce",
+    "pages/mysellect/mysellect",
+    "pages/myfoot/myfoot",
+    "pages/calogory_1/calogory_1",
+    "pages/calogory_2/calogory_2",
+    "pages/calogory_3/calogory_3",
+    "pages/calogory_4/calogory_4",
+
+
+    "pages/logs/logs"
+
+
+
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "林业知识普及",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/imgs/home.png",
+      "selectedIconPath": "/imgs/home1.png"
+    },{
+      "pagePath": "pages/calogory/calogory",
+      "text": "分类",
+      "iconPath": "/imgs/calogory.png",
+      "selectedIconPath": "/imgs/calogory1.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "/imgs/my.png",
+      "selectedIconPath": "/imgs/my1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

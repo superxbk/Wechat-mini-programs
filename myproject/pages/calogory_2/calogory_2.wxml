@@ -1,0 +1,50 @@
+<!--pages/calogory_2/calogory_2.wxml-->
+<view class="outside">
+  <!-- 头部 -->
+  <view class="header">
+    <view id="title">
+      自然资源的特征
+    </view>
+    <view id="second-title">
+      <text space="ensp">制作：徐邦坤 2023/4/11 14：23</text>
+    </view>
+  </view>
+  <!-- 中间 -->
+  <!-- 中间内容1 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        自然资源主要特点
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        稀缺性：在一定的时空范围内，自然资源相对于人类的需要在数量上的不足，两者之间的矛盾构成资源的稀缺性。我国自然资源稀缺性问题十分严重，节约资源是我们的基本国策。
+
+        整体性：自然资源各个组成部分在生态系统中既相互联系，又相互制约，共同构成一个有机整体。山水林田湖草是一个生命共同体，便是从自然资源的系统性和整体性角度，提出的自然资源和生态系统保护的理念。
+
+        地域性：自然资源总是相对集中于某些区域之中，其数量、质量、稀缺性程度及特性存在地区差异。动植物资源有地带性、水资源有流域性、矿产资源有成矿带。这就决定了自然资源的开发利用和保护必须因地制宜，根据其区域特征采取有针对性的措施，特别是把用途管制制度覆盖到全部国土空间，解决各地自然资源分布状态不平衡问题。
+
+        功能多样性：大部分自然资源都具有多种功能，包括生产功能、生态调节功能、载体功能和信息功能等，各种功能互为因果、相互依存、相互制约。因此，自然资源管理工作要强化监督管理，使自然资源开发利用与保护发挥最大效益。
+
+        两重性：各种自然资源既是人类的生产资料和劳动对象，又是人类赖以生存的环境。这两个方面的作用缺一不可。因此，对自然资源既要重视开发利用，又要重视保护与管理。
+
+        变动性：人类利用自然资源的范围和深度不断扩大，自然资源系统、人类—资源生态系统也在不断地运动和变化（资源增值性与报酬递减性）。这决定了自然资源管理改革要顺应经济社会发展规律，尊重自然资源的基本属性和主要特点，不断创新体制机制，健全管理制度和体制，使自然资源管理与经济社会发展相协调。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="/imgs/natural_1.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 尾部 -->
+  <view class="footer">
+    更多数据等待开发，敬请期待！--by徐邦坤
+  </view>
+</view>

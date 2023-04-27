@@ -1,0 +1,28 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+  <view class='personalInf'>
+    <view class='deco'>
+      <open-data class='ava' type="userAvatarUrl"></open-data>
+    </view>
+    <open-data class='nn' type="userNickName"></open-data>
+    <view class="tz" bindtap="onlogin">
+      登录
+    </view>
+    <view class="tz" bindtap="onenroll">
+      注册
+    </view>
+  </view>
+<!-- 后半部分 -->
+  <view class="body">
+    <!-- 关于 -->
+    <view class="line" bindtap="onsellect">
+      <image src="/imgs/about.png" mode="aspectFit"/>
+      <text>关于</text>
+    </view>
+    <!-- 意见反馈 -->
+    <view class="line" bindtap="onfoot">
+      <image id="feedback" src="/imgs/feedback .png" mode="aspectFit"/>
+      <text>意见反馈</text>
+    </view>
+  </view>
+</view>

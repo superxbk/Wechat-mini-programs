@@ -1,0 +1,78 @@
+/* pages/calogory_2/calogory_2.wxss *//* pages/calogory_1/calogory_1.wxss *//* pages/introduce/introduce.wxss */
+.outside {
+  margin: 20rpx 20rpx;
+
+  /* border: 1rpx solid black; */
+}
+
+/* .header {
+
+} */
+
+#title {
+  font-size: x-large;
+  font-weight: 500;
+  text-align: center;
+  color: green; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#second-title {
+  font-size: x-small;
+  font-family: ‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+}
+
+.middle {
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+#middle-header {
+  display: flex;
+  justify-content: space-around;
+  /* background: green; */
+}
+
+#icon-img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+#third-title {
+  font-size: 600;
+  text-align: center;
+  font-family: ‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+}
+
+#middle-other-article {
+  font: medium;
+  font-family: ‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 5rpx;
+}
+
+#middle-other-img {
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+
+#article-img {
+  width: 300px;
+  height: 300px;
+}
+
+#linex {
+  margin-top: 10rpx;
+  background: rgb(17, 196, 70);
+  width: 100%;
+  height: 2px;
+}
+
+.footer {
+  font-size: 600;
+  text-align: center;
+  font-family: ‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+
+  /* background: blue; */
+}

@@ -1,0 +1,24 @@
+<!--pages/mysellect/mysellect.wxml-->
+<view class="container">
+  <!-- 头部 -->
+  <view class="tab">
+    <view class="tab_item" wx:for="{{tab}}"  wx:key="id" bindtap="changetab" data-index="{{index}}">{{item.name}}</view> 
+  </view>
+ 
+
+  <!-- 内容 -->
+  <view class="content_item" style="display: {{active==0?'block':'none'}};">
+    <view class="h2">
+    简介
+    </view>
+    <view class="article">
+      保护环境已经成为世界的主旋律，作为一个负责任的大国中国深入贯彻可持续发展理念。植物资源是地球上的重要资源，充分的保护植物资源显得十分重要与紧迫。为了让公众了解到植物的分类，对植物保护的相关法律以及碳排放。宣传的方式在此就显得尤为重要，植物造林应该让为一个人都参与进来。
+    </view>
+  </view>
+  <view class="content_item" style="display: {{active==1?'block':'none'}};">
+    <view class="h2">
+        开发人员
+    </view>
+    <text> 徐邦坤</text>
+  </view>
+</view>

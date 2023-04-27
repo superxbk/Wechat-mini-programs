@@ -1,0 +1,121 @@
+<!--pages/calogory_1/calogory_1.wxml-->
+<!--pages/introduce/introduce.wxml-->
+<view class="outside">
+  <!-- 头部 -->
+  <view class="header">
+    <view id="title">
+      什么是自然资源
+    </view>
+    <view id="second-title">
+      <text space="ensp">制作：徐邦坤 2023/3/27 14：23</text>
+    </view>
+  </view>
+  <!-- 中间 -->
+  <!-- 中间内容1 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        自然资源基本概念
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        无论是整个环境还是其某些部分，只要它们能（或被认为能）满足人类的需要，就是自然资源。——《世界资源与产业》（1951年地理学家Zimmermann提出）
+
+        人类可以利用的自然生成物，以及形成这些成分源泉的环境功能。前者包括土地、水、大气、岩石、矿物、生物及其群集的森林、草地、矿藏、陆地、海洋等；后者则指太阳能、生态系统的环境机能、地球物理化学循环机能等。——《大英百科全书》
+
+        人在自然环境中发现的各种成分，只要它能以任何方式为人类提供福利，都属于自然资源。从广义上来说，自然资源包括全球范围内的一切要素，它既包括过去进化阶段中无生命的物理成分，如矿物，又包括地球演化中的产物，如植物、动物、景观要素、地形、水、空气、土壤和化石资源等。——1970年联合国文献
+
+        自然资源是在一定时间和一定条件下，能产生经济效益，以提高人类当前和未来福利的自然因素和条件。——1972年联合国环境规划署
+
+        各国在宪法、民法或者自然资源法中，对自然资源的界定不仅包含具有经济开采、开发价值的自然资源，还包含具有生态服务价值和美学价值的自然资源。从传统的土地、矿产、水、森林、草原，到沙漠、冰川、河流、湿地、滩涂、山岭、海岛、保护地和其他自然景观，自然资源概念的内涵与外延呈现出不断扩大的趋势。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="/imgs/natural_1.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 中间内容2 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        自然资源基本属性
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        经济属性：当今生产活动中，自然资源成为对生产起着决定性作用的基础要素，更是以其日益稀缺的特性参与社会财富的分配。
+
+        环境属性：自然资源是整个生态系统的有机组成部分，环境成本应该受到应有的重视。
+
+        法律属性：在法律层面，自然资源首先是重要的权利客体。一些学者倾向于将自然资源所有权纳入民法体系。
+
+        政治属性：马克思强调生产资料所有制是生产关系的基础，决定着一个国家的性质。而自然资源是生产活动中不可或缺的重要基础性生产资料，这就赋予了自然资源隐性的但又不能忽视的政治属性。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="/imgs/natural_2.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 中间内容3 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        自然资源分类体系
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        自然资源都是以土地的形态（山岭、荒地、滩涂）存在，或是依附于土地（矿藏、水流、森林、草原）存在，无论哪种分类体系都是以土地作为最基本的依托和基础。按再生性划分
+
+        按照能否再生或恢复的特性，可划分为再生资源和非再生资源两大类。
+
+        再生资源又称可再生资源或可更新资源，是被人类合理开发利用后可以依靠生态系统自身的功能，使之得到恢复和再生，从而能够持续利用。再生资源又分为生物资源和非生物资源，两者都是构成生态系统的基本要素。
+
+        非再生资源又称不可再生资源或不可更新资源，是指它的储量在人类开发利用后逐渐减少以至枯竭，而不能再生的自然资源。例如：矿物资源（包括能源矿物、金属矿物、非金属矿物等）等储量固定的资源。
+
+        按耗竭性划分：
+
+        按耗竭性可以将自然资源分为耗竭性资源和非耗竭性资源。
+
+        耗竭性资源指被开发或利用过程中导致明显消耗或资源蕴藏量为零的过程状态或改变其位置、形态、存在形式等。耗竭性资源又可以进一步划分为可更新资源和不可更新资源。
+
+        非耗竭性资源指通过天然作用或人工活动能再生更新，而为人类反复利用的自然资源。非耗竭性资源可以进一步划分为恒定资源、亚恒定资源，以及易误用、易污染资源。
+
+        按照列举法划分：
+
+        《中国自然资源手册》按列举法将自然资源分为9类，包括土地资源、森林资源、草地资源、水资源、气候资源、矿产资源、海洋资源、能源资源和其他资源。
+
+        我国《宪法》第9条对自然资源的种类进行了列举，即“矿藏、水流、森林、山岭、草原、荒地、滩涂等自然资源，都属于国家所有”。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="http://www.cnr.cn/gd/guangdonglueying/20210422/W020210422476922514516.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 尾部 -->
+  <view class="footer">
+    更多数据等待开发，敬请期待！--by徐邦坤
+  </view>
+</view>

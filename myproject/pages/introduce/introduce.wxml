@@ -1,0 +1,87 @@
+<!--pages/introduce/introduce.wxml-->
+<view class="outside">
+  <!-- 头部 -->
+  <view class="header">
+    <view id="title">
+      中国森林资源
+    </view>
+    <view id="second-title">
+      <text space="ensp">制作：徐邦坤  2023/3/27 14：23</text>
+    </view>
+  </view>
+  <!-- 中间 -->
+  <!-- 中间内容1 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        中国主要天然林区
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        东北针叶林及针阔叶混交林。 中国主要天然林区，现有森林3094万公顷，占全国的26.9%；森林蓄积量28.9亿立方米，占全国32%；森林覆盖率约为37.6%。经过采伐更新和人工改造经营，区内人工林的比重将逐渐增加。本区西北部的大兴安岭主要是落叶松（兴安落叶松）林和采伐后的桦木、山杨次生林、部分地区有樟子松林，沿河流有杨树和钻天柳（亦称朝鲜柳），东南部有生长不良的蒙古栎林。小兴安岭主要是红松林和针阔叶混交林，针叶树除红松外有落叶松、鱼鳞松、红皮云杉和冷杉（臭松）；阔叶树有椴树、水曲柳、核桃楸、黄菠萝、榆树和槭树类及多种桦木和杨树。长白山区的森林与小兴安岭林区相近似，但阔叶树种的比重增加,并有沙松（冷杉一种）和长白赤松。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="https://bkimg.cdn.bcebos.com/pic/91ef76c6a7efce1b9d16fbd9c102e4deb48f8c54cfdf?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyNzI=,g_7,xp_5,yp_5" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 中间内容2 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        中国第二重要天然林区
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        西南亚高山针叶林和针阔叶混交林。位于青藏高原的东南部,是中国第2重要天然林区。这一林区海拔高差很大,森林主要分布于山坡中下部,一般在4000米以下。全区有林地面积2245万公顷,占全国19.5%;森林蓄积量35.8亿立方米,占全国39.7%;森林覆盖率28.3%。林区针叶树有多种冷杉、云杉及落叶松、高山松、铁杉；阔叶树有多种桦木、槭树、高山栎。在海拔较低处还有椴树、榆树、 槭树和高山松、 华山松等，海拔更低的山坡出现壳斗科、樟科等常绿阔叶树。林区林下植物有杜鹃、悬钩子、忍冬和箭竹等。林区内栖息着许多珍稀动物。大熊猫即生长于以箭竹为主要林下植物的云杉、冷杉林内；并有金丝猴、扭角羚等。
+        本区因位于长江许多支流的上游，森林涵养水源的功能应充分重视。 在陡坡、 山脊的森林应划作水源林，并应划定必要的自然保护区，保存珍稀物种和森林类型。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="http://www.baiven.com/uploads/baike/3/33415y797972_17258.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 中间内容3 -->
+  <view class="middle">
+    <view id="middle-header">
+      <view id="icon-left">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+      <view id="third-title">
+        中国经济林
+      </view>
+      <view id="icon-right">
+        <image id="icon-img" src="/imgs/tree-icon.png" mode="aspectFill" />
+      </view>
+    </view>
+    <view id="middle-other">
+      <view id="middle-other-article">
+        南方松杉林和常绿阔叶林及油茶、油桐等经济林。这一地区主要森林树种有马尾松、黄山松、杉木、柳杉、柏木，多种竹类（主要有毛竹、淡竹、桂竹、刚竹、南部还有丛生竹）和多种常绿阔叶树（主要有樟树、楠木、栲类、石栎、常绿青冈、木荷、木莲、阿丁枫、胆八树等）。此外有许多落叶阔叶树如多种栎类（包括栓皮栎、麻栎、小叶栎、檞栎）、山毛榉、枫香、檫树、拟赤杨、光皮桦等。中国多种特有树种原产于此。针叶树中有银杏、水杉、杉木、金钱松、银松、台湾杉、白头杉、福建柏；阔叶树有珙桐、杜仲、 喜树、观光木、 伯乐树、香果树等。多种经济林产品重要的有油茶、油桐、乌桕、漆、棕榈、原朴、杜仲、白蜡。油茶面积约有 300多万公顷；油桐约200万公顷。
+      </view>
+      <view id="middle-other-img">
+        <image id="article-img" src="http://www.cnr.cn/gd/guangdonglueying/20210422/W020210422476922514516.jpg" mode="aspectFill" />
+      </view>
+      <view id="linex"></view>
+    </view>
+  </view>
+  <!-- 尾部 -->
+  <view class="footer">
+    更多数据等待开发，敬请期待！--by徐邦坤
+  </view>
+</view>
